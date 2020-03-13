@@ -3,7 +3,7 @@
      <title>How to detect browser using PHP</title>        
     </head>  
     <body>        
-        <h1> Display Cross Browsers Compatibility Issues line1</h1>
+        <h1> Display Cross Browsers Compatibility Issues</h1>
                  <?php
                            echo " Trying to detect Browser name... <br/>";
                                      function brdetect(){
@@ -15,7 +15,7 @@
                                                                echo "Browser: Firefox";           
                                                          else if ( strpos ($res, "Trident") == true)    
                                                               echo "Browser: Internet Explorer";                      
-                                                         else  echo "Browser: unkown"; 
+                                                         else  echo "Browser: unknown"; 
                                                   } 
                       brdetect( );   
                       ?> 
